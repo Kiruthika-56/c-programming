@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{
+    float a;
+    float b;
+    int x1=6;
+    int x2=5;
+    int y1=3;
+    int y2=8;
+    a=(x1+y1)/2.0;
+    b=(x2+y2)/2.0;
+    printf("Binoy's house is located at (%.1f,%.1f)\n",a,b);
+    return 0;
+}
