@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main() 
 {
-    int hours=1;
-    int minutes=15;
-    int seconds=10;
+    int hours,minutes,seconds;
+    scanf("%d%d%d",&hours,&minutes,&seconds);
     minutes+=seconds/60;
     seconds=seconds%60;
     hours+=minutes/60;
@@ -14,3 +13,4 @@ int main()
     
     return 0;
 }
+
