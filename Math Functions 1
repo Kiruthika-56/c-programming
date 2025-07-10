@@ -1,14 +1,16 @@
 #include <stdio.h>
-#include<math.h>
-int main()
+#include <math.h>
+int main() 
 {
-    float floatvalue=76.78;
-    int squarevalue=16;
-    int base=2;
-    int power=3;
-    printf("%.0f\n",floor(floatvalue));
-    printf("%.0f\n",ceil(floatvalue));
-    printf("%.0f\n",sqrt(squarevalue));
+    float num;
+    int squareValue,base,power;
+    scanf("%f",&num);
+    scanf("%d",&squareValue);
+    scanf("%d",&base);
+    scanf("%d",&power);
+    printf("%d\n",(int)floor(num));
+    printf("%d\n",(int)ceil(num));
+    printf("%d\n",(int)sqrt(squareValue));
     printf("%.0f\n",pow(base,power));
     return 0;
 }
