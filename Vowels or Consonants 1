@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<ctype.h>
+int main()
+{
+    char c;
+    scanf(" %c", &c);
+    char l = tolower(c);
+    if (isalpha(l))
+        printf("The Character %c is %s\n", c, (l == 'a' || l == 'e' || l == 'i' || l == 'o' || l == 'u') ? "Vowel" : "Consonant");
+    else
+        printf("Invalid Input\n");
+    return 0;
+}
